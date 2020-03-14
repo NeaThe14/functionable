@@ -1,13 +1,20 @@
 {
   "name": "functionable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expand your objects so they can be more functionable :)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Danil Ivanov",
   "license": "MIT",
-  "keywords": ["function", "functional", "extension", "extensions"],
-  "files": ["lib/**/*"],
+  "keywords": [
+    "function",
+    "functional",
+    "extension",
+    "extensions"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.0",
