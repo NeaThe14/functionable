@@ -1,4 +1,4 @@
-import Functionable from "../../lib/functionable/index";
+import { Functionable } from "../../lib/functionable/index";
 
 class ExampleClass {
 	constructor(public name: string, public stats: ExampleClassStats | any) {}
