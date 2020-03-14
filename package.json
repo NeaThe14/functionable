@@ -1,0 +1,24 @@
+{
+  "name": "functionable",
+  "version": "1.0.0",
+  "description": "Expand your objects so they can be more functionable :)",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Danil Ivanov",
+  "license": "MIT",
+  "keywords": ["function", "functional", "extension", "extensions"],
+  "files": ["lib/**/*"],
+  "dependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "prepare": "yarn run build",
+    "prepublishOnly": "yarn test"
+  }
+}
