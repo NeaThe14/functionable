@@ -6,6 +6,10 @@
   "types": "lib/index.d.ts",
   "author": "Danil Ivanov",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeaThe14/functionable.git"
+  },
   "keywords": [
     "function",
     "functional",
