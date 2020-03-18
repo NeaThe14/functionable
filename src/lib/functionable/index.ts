@@ -18,7 +18,7 @@ export class Functionable<T extends Object> {
 	};
 
 	// Executes lambda on current object, returns lambda result wrapped by Functionable
-	let = (lambda: Function) => Functionable.wrap(lambda(this.object));
+	let = <Y>(lambda: (obj: T) => Y) => Functionable.wrap(lambda(this.object));
 
 	static wrap = <Y>(object: Y) => new Functionable(object);
 

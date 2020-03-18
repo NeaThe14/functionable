@@ -25,12 +25,12 @@ test("also: should return current Functionable", () => {
 	expect(new Functionable(1).also(example).unwrap()).toBe(1);
 });
 
-test("let: should return correct wrapped lambda result", () => {
+test("let: should return correct lambda returning value type", () => {
 	expect(
-		Functionable.wrap(1)
+		typeof Functionable.wrap(1)
 			.let(String)
 			.unwrap()
-	).toBe("1");
+	).toBe("string");
 });
 
 function example() {}
